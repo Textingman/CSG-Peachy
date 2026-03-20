@@ -9,7 +9,16 @@ const inter = Inter({
 
 export const metadata: Metadata = {
   title: "Society Mortgage",
-  description: "Society Mortgage - Quality Home Construction Services",
+  description: "Society Mortgage",
+  openGraph: {
+    title: "Society Mortgage",
+    description: "Society Mortgage",
+    siteName: "Society Mortgage",
+  },
+  twitter: {
+    title: "Society Mortgage",
+    description: "Society Mortgage",
+  },
 };
 
 export default function RootLayout({
