@@ -79,26 +79,18 @@ export default function Home() {
         id="contact"
         className="flex-1 max-w-3xl w-full mx-auto px-5 py-9"
       >
-        {/* Success Overlay */}
-        {submitted && (
-          <div className="mb-6 rounded-lg bg-green-50 border border-green-200 p-6 flex flex-col items-center text-center gap-3">
-            <div className="w-12 h-12 rounded-full bg-green-100 flex items-center justify-center">
-              <svg className="w-6 h-6 text-green-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
+        {/* Success State */}
+        {submitted ? (
+          <div className="rounded-xl bg-gray-50 border border-gray-200 p-10 flex flex-col items-center text-center gap-4">
+            <div className="w-14 h-14 rounded-full bg-[#3cb371] flex items-center justify-center shadow-sm">
+              <svg className="w-7 h-7 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2.5} d="M5 13l4 4L19 7" />
               </svg>
             </div>
-            <h2 className="text-lg font-semibold text-green-800">Form Submitted Successfully!</h2>
-            <p className="text-sm text-green-700">Thank you for reaching out. A member of our team will be in touch with you shortly.</p>
-            <button
-              type="button"
-              onClick={() => setSubmitted(false)}
-              className="mt-1 text-sm text-green-700 underline hover:text-green-900 transition-colors"
-            >
-              Submit another response
-            </button>
+            <h2 className="text-xl font-bold text-gray-900">Thank you!</h2>
+            <p className="text-sm text-gray-500 max-w-xs">Your form has been submitted successfully. We&apos;ll get back to you soon.</p>
           </div>
-        )}
-
+        ) : (
         <form onSubmit={handleSubmit} className="flex flex-col gap-5">
           {/* First Name */}
           <div className="flex flex-col gap-1.5">
@@ -262,6 +254,7 @@ export default function Home() {
             Submit
           </button>
         </form>
+        )}
       </section>
 
       <Footer />
