@@ -87,9 +87,8 @@ export default function PrivacyPolicy() {
               4. SMS Marketing Communications
             </h2>
             <p className="leading-relaxed">
-              If you opt in to receive SMS marketing messages, we will send you
-              marketing text messages including promotional offers and updates
-              related to our services. Message
+              If you opt in to receive SMS messages, we will send you
+              customer care text messages related to your inquiries and our services. Message
               frequency varies. Message and data rates may apply. You may opt
               out at any time by replying STOP to any message. For help, reply
               HELP or contact us at{" "}
@@ -159,7 +158,7 @@ export default function PrivacyPolicy() {
             </p>
             <div className="mt-3 text-gray-700">
               <p className="font-semibold">Peachy Insurance</p>
-              <p>400 Galleria Pkwy SE, Ste 1500</p>
+              <p>200 Galleria Pkwy SE, Ste. 260</p>
               <p>Atlanta, GA 30339</p>
               <p>
                 Email:{" "}

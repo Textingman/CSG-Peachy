@@ -17,7 +17,7 @@ export default function Footer() {
               </strong>
               Peachy Insurance
               <br />
-              400 Galleria Pkwy SE, Ste 1500
+              200 Galleria Pkwy SE, Ste. 260
               <br />
               Atlanta, GA 30339
             </div>

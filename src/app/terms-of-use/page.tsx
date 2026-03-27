@@ -110,13 +110,15 @@ export default function TermsOfUse() {
             </h2>
             <p className="leading-relaxed mb-3">
               Peachy Insurance uses SMS (text message) communications
-              for <strong>marketing purposes</strong>. This
-              includes promotional offers, updates on our services, and
-              other marketing communications.
+              exclusively for <strong>customer care purposes</strong>. This
+              includes responding to inquiries, providing updates on your
+              requests, and offering support related to our services.
+              SMS will <strong>not</strong> be used for unsolicited marketing or
+              promotional campaigns unrelated to your inquiry.
             </p>
             <p className="leading-relaxed mb-3">
               By opting in to receive SMS messages from Peachy Insurance, you
-              consent to receive marketing text messages. Opting in is
+              consent to receive customer care text messages. Opting in is
               entirely optional and is not required to submit a form or use our
               services.
             </p>
@@ -192,7 +194,7 @@ export default function TermsOfUse() {
             </p>
             <div className="mt-3 text-gray-700">
               <p className="font-semibold">Peachy Insurance</p>
-              <p>400 Galleria Pkwy SE, Ste 1500</p>
+              <p>200 Galleria Pkwy SE, Ste. 260</p>
               <p>Atlanta, GA 30339</p>
               <p>
                 Email:{" "}

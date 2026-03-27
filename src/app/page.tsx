@@ -213,7 +213,7 @@ export default function Home() {
               className="text-sm text-gray-600 leading-relaxed cursor-pointer"
             >
               By checking this box and submitting this form, you agree to
-              receive marketing text messages from Peachy Insurance. I
+              receive customer care text messages from Peachy Insurance. I
               understand I may opt out of SMS communication by replying
               &apos;STOP&apos;. Reply HELP or email{" "}
               <a
