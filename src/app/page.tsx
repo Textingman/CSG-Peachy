@@ -15,6 +15,8 @@ export default function Home() {
     smsAgreed: false,
   });
 
+  const [submitted, setSubmitted] = useState(false);
+
   const handleChange = (
     e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>
   ) => {
@@ -31,6 +33,7 @@ export default function Home() {
     e.preventDefault();
     // Handle form submission here
     console.log("Form submitted:", formData);
+    setSubmitted(true);
   };
 
   return (
@@ -76,6 +79,26 @@ export default function Home() {
         id="contact"
         className="flex-1 max-w-3xl w-full mx-auto px-5 py-9"
       >
+        {/* Success Overlay */}
+        {submitted && (
+          <div className="mb-6 rounded-lg bg-green-50 border border-green-200 p-6 flex flex-col items-center text-center gap-3">
+            <div className="w-12 h-12 rounded-full bg-green-100 flex items-center justify-center">
+              <svg className="w-6 h-6 text-green-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
+              </svg>
+            </div>
+            <h2 className="text-lg font-semibold text-green-800">Form Submitted Successfully!</h2>
+            <p className="text-sm text-green-700">Thank you for reaching out. A member of our team will be in touch with you shortly.</p>
+            <button
+              type="button"
+              onClick={() => setSubmitted(false)}
+              className="mt-1 text-sm text-green-700 underline hover:text-green-900 transition-colors"
+            >
+              Submit another response
+            </button>
+          </div>
+        )}
+
         <form onSubmit={handleSubmit} className="flex flex-col gap-5">
           {/* First Name */}
           <div className="flex flex-col gap-1.5">
