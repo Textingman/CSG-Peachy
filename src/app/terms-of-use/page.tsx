@@ -113,8 +113,6 @@ export default function TermsOfUse() {
               exclusively for <strong>customer care purposes</strong>. This
               includes responding to inquiries, providing updates on your
               requests, and offering support related to our services.
-              SMS will <strong>not</strong> be used for unsolicited marketing or
-              promotional campaigns unrelated to your inquiry.
             </p>
             <p className="leading-relaxed mb-3">
               By opting in to receive SMS messages from Peachy Insurance, you
