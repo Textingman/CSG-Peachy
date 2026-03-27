@@ -38,7 +38,7 @@ export default function Home() {
       {/* Top Bar */}
       <header className="bg-white border-b border-gray-200 px-5 py-3.5 sticky top-0 z-50">
         <span className="text-base font-semibold text-gray-900 tracking-tight">
-          Society Mortgage
+          Peachy Insurance
         </span>
       </header>
 
@@ -58,16 +58,14 @@ export default function Home() {
         {/* Hero Content */}
         <div className="relative z-10 flex flex-col items-center gap-7">
           {/* Logo Box */}
-          <div className="bg-white rounded-md px-9 py-5 flex flex-col items-center gap-2 shadow-md min-w-[180px]">
-            {/* Logo placeholder - replace with actual logo */}
-            <div className="w-20 h-20 rounded-full bg-[#8b1a2e] flex items-center justify-center">
-              <span className="text-white font-bold text-xl">M</span>
-            </div>
-            <span className="text-[#8b1a2e] font-bold text-lg uppercase tracking-wider text-center leading-tight">
-              Society
-              <br />
-              Mortgage
-            </span>
+          <div className="bg-black rounded-md px-9 py-5 flex flex-col items-center gap-2 shadow-md min-w-[180px]">
+            <Image
+              src="/PeachyLogo.png"
+              alt="Peachy Insurance Logo"
+              width={160}
+              height={80}
+              className="object-contain"
+            />
           </div>
 
         </div>
@@ -215,27 +213,27 @@ export default function Home() {
               className="text-sm text-gray-600 leading-relaxed cursor-pointer"
             >
               By checking this box and submitting this form, you agree to
-              receive customer care text messages from Society Mortgage. I
+              receive marketing text messages from Peachy Insurance. I
               understand I may opt out of SMS communication by replying
               &apos;STOP&apos;. Reply HELP or email{" "}
               <a
-                href="mailto:support@usesocietymortgage.com"
+                href="mailto:support@trypeachyinsurance.com"
                 className="text-[#8b1a2e] underline"
               >
-                support@usesocietymortgage.com
+                support@trypeachyinsurance.com
               </a>{" "}
               for help. Message and Data rates may apply. Message frequency
               varies. Carriers are not liable for delayed or undelivered
               messages. Opting in to SMS is optional and not required to submit
               this form or use our services. All messages will be handled by
-              Society Mortgage.
+              Peachy Insurance.
             </label>
           </div>
 
           {/* Submit Button */}
           <button
             type="submit"
-            className="w-full py-4 bg-[#8b1a2e] hover:bg-[#6e1424] text-white font-semibold text-base rounded-md transition-colors duration-200 tracking-wide cursor-pointer"
+            className="w-full py-4 bg-[#f9987d] hover:bg-[#f7845f] text-white font-semibold text-base rounded-md transition-colors duration-200 tracking-wide cursor-pointer"
           >
             Submit
           </button>

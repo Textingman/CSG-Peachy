@@ -8,16 +8,16 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "Society Mortgage",
-  description: "Society Mortgage",
+  title: "Peachy Insurance",
+  description: "Peachy Insurance",
   openGraph: {
-    title: "Society Mortgage",
-    description: "Society Mortgage",
-    siteName: "Society Mortgage",
+    title: "Peachy Insurance",
+    description: "Peachy Insurance",
+    siteName: "Peachy Insurance",
   },
   twitter: {
-    title: "Society Mortgage",
-    description: "Society Mortgage",
+    title: "Peachy Insurance",
+    description: "Peachy Insurance",
   },
 };
 

@@ -3,8 +3,8 @@ import type { Metadata } from "next";
 import Footer from "@/app/components/Footer";
 
 export const metadata: Metadata = {
-  title: "Privacy Policy | Society Mortgage",
-  description: "Privacy Policy for Society Mortgage",
+  title: "Privacy Policy | Peachy Insurance",
+  description: "Privacy Policy for Peachy Insurance",
 };
 
 export default function PrivacyPolicy() {
@@ -16,7 +16,7 @@ export default function PrivacyPolicy() {
           href="/"
           className="text-base font-semibold text-gray-900 tracking-tight hover:text-[#8b1a2e] transition-colors"
         >
-          Society Mortgage
+          Peachy Insurance
         </Link>
       </header>
 
@@ -35,7 +35,7 @@ export default function PrivacyPolicy() {
               1. Introduction
             </h2>
             <p className="leading-relaxed">
-              Society Mortgage (&quot;we,&quot; &quot;our,&quot; or
+              Peachy Insurance (&quot;we,&quot; &quot;our,&quot; or
               &quot;us&quot;) is committed to protecting your personal
               information and your right to privacy. This Privacy Policy
               explains how we collect, use, disclose, and safeguard your
@@ -88,15 +88,16 @@ export default function PrivacyPolicy() {
             </h2>
             <p className="leading-relaxed">
               If you opt in to receive SMS marketing messages, we will send you
-              promotional text messages related to our services. Message
+              marketing text messages including promotional offers and updates
+              related to our services. Message
               frequency varies. Message and data rates may apply. You may opt
               out at any time by replying STOP to any message. For help, reply
               HELP or contact us at{" "}
               <a
-                href="mailto:support@usesocietymortgage.com"
+                href="mailto:support@trypeachyinsurance.com"
                 className="text-[#8b1a2e] underline"
               >
-                support@usesocietymortgage.com
+                support@trypeachyinsurance.com
               </a>
               .
             </p>
@@ -139,10 +140,10 @@ export default function PrivacyPolicy() {
               You have the right to access, correct, or delete your personal
               information. To exercise these rights, please contact us at{" "}
               <a
-                href="mailto:support@usesocietymortgage.com"
+                href="mailto:support@trypeachyinsurance.com"
                 className="text-[#8b1a2e] underline"
               >
-                support@usesocietymortgage.com
+                support@trypeachyinsurance.com
               </a>
               .
             </p>
@@ -157,22 +158,22 @@ export default function PrivacyPolicy() {
               contact us:
             </p>
             <div className="mt-3 text-gray-700">
-              <p className="font-semibold">Society Mortgage</p>
-              <p>330 SW 2nd Street. #111</p>
-              <p>Fort Lauderdale, FL 33312</p>
+              <p className="font-semibold">Peachy Insurance</p>
+              <p>400 Galleria Pkwy SE, Ste 1500</p>
+              <p>Atlanta, GA 30339</p>
               <p>
                 Email:{" "}
                 <a
-                  href="mailto:support@usesocietymortgage.com"
+                  href="mailto:support@trypeachyinsurance.com"
                   className="text-[#8b1a2e] underline"
                 >
-                  support@usesocietymortgage.com
+                  support@trypeachyinsurance.com
                 </a>
               </p>
               <p>
                 Phone:{" "}
-                <a href="tel:12162367266" className="text-[#8b1a2e] underline">
-                  +1 (216) 236-7266
+                <a href="tel:14046001660" className="text-[#8b1a2e] underline">
+                  (404) 600-1660
                 </a>
               </p>
             </div>

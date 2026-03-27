@@ -3,8 +3,8 @@ import type { Metadata } from "next";
 import Footer from "@/app/components/Footer";
 
 export const metadata: Metadata = {
-  title: "Terms of Use | Society Mortgage",
-  description: "Terms of Use for Society Mortgage",
+  title: "Terms of Use | Peachy Insurance",
+  description: "Terms of Use for Peachy Insurance",
 };
 
 export default function TermsOfUse() {
@@ -16,7 +16,7 @@ export default function TermsOfUse() {
           href="/"
           className="text-base font-semibold text-gray-900 tracking-tight hover:text-[#8b1a2e] transition-colors"
         >
-          Society Mortgage
+          Peachy Insurance
         </Link>
       </header>
 
@@ -33,7 +33,7 @@ export default function TermsOfUse() {
               1. Acceptance of Terms
             </h2>
             <p className="leading-relaxed">
-              By accessing and using the Society Mortgage website, you accept
+              By accessing and using the Peachy Insurance website, you accept
               and agree to be bound by these Terms of Use. If you do not agree
               to these terms, please do not use our website.
             </p>
@@ -72,8 +72,8 @@ export default function TermsOfUse() {
             </h2>
             <p className="leading-relaxed">
               All content on this website, including but not limited to text,
-              graphics, logos, images, and software, is the property of Society
-              Mortgage and is protected by applicable intellectual property
+              graphics, logos, images, and software, is the property of Peachy
+              Insurance and is protected by applicable intellectual property
               laws. You may not reproduce, distribute, or create derivative works
               without our express written permission.
             </p>
@@ -86,7 +86,7 @@ export default function TermsOfUse() {
             <p className="leading-relaxed">
               This website is provided on an &quot;as is&quot; and &quot;as
               available&quot; basis without any warranties of any kind, either
-              express or implied. Society Mortgage does not warrant that the
+              express or implied. Peachy Insurance does not warrant that the
               website will be uninterrupted, error-free, or free of viruses or
               other harmful components.
             </p>
@@ -97,7 +97,7 @@ export default function TermsOfUse() {
               5. Limitation of Liability
             </h2>
             <p className="leading-relaxed">
-              To the fullest extent permitted by law, Society Mortgage shall
+              To the fullest extent permitted by law, Peachy Insurance shall
               not be liable for any indirect, incidental, special, consequential,
               or punitive damages arising out of or related to your use of this
               website or the services provided.
@@ -109,16 +109,14 @@ export default function TermsOfUse() {
               6. SMS Communications
             </h2>
             <p className="leading-relaxed mb-3">
-              Society Mortgage uses SMS (text message) communications
-              exclusively for <strong>customer care purposes</strong>. This
-              includes responding to inquiries, providing updates on your
-              requests, and offering support related to our mortgage services.
-              SMS will <strong>not</strong> be used for unsolicited marketing or
-              promotional campaigns unrelated to your inquiry.
+              Peachy Insurance uses SMS (text message) communications
+              for <strong>marketing purposes</strong>. This
+              includes promotional offers, updates on our services, and
+              other marketing communications.
             </p>
             <p className="leading-relaxed mb-3">
-              By opting in to receive SMS messages from Society Mortgage, you
-              consent to receive customer care text messages. Opting in is
+              By opting in to receive SMS messages from Peachy Insurance, you
+              consent to receive marketing text messages. Opting in is
               entirely optional and is not required to submit a form or use our
               services.
             </p>
@@ -133,10 +131,10 @@ export default function TermsOfUse() {
               <li>
                 For help, reply <strong>HELP</strong> or email{" "}
                 <a
-                  href="mailto:support@usesocietymortgage.com"
+                  href="mailto:support@trypeachyinsurance.com"
                   className="text-[#8b1a2e] underline"
                 >
-                  support@usesocietymortgage.com
+                  support@trypeachyinsurance.com
                 </a>
                 .
               </li>
@@ -144,7 +142,7 @@ export default function TermsOfUse() {
             <p className="leading-relaxed">
               No mobile information will be shared with third parties or
               affiliates for marketing purposes. All SMS messages will be
-              handled solely by Society Mortgage.
+              handled solely by Peachy Insurance.
             </p>
           </section>
 
@@ -154,7 +152,7 @@ export default function TermsOfUse() {
             </h2>
             <p className="leading-relaxed">
               Our website may contain links to third-party websites. These links
-              are provided for your convenience only. Society Mortgage has no
+              are provided for your convenience only. Peachy Insurance has no
               control over the content of those sites and accepts no
               responsibility for them or for any loss or damage that may arise
               from your use of them.
@@ -193,22 +191,22 @@ export default function TermsOfUse() {
               us:
             </p>
             <div className="mt-3 text-gray-700">
-              <p className="font-semibold">Society Mortgage</p>
-              <p>330 SW 2nd Street. #111</p>
-              <p>Fort Lauderdale, FL 33312</p>
+              <p className="font-semibold">Peachy Insurance</p>
+              <p>400 Galleria Pkwy SE, Ste 1500</p>
+              <p>Atlanta, GA 30339</p>
               <p>
                 Email:{" "}
                 <a
-                  href="mailto:support@usesocietymortgage.com"
+                  href="mailto:support@trypeachyinsurance.com"
                   className="text-[#8b1a2e] underline"
                 >
-                  support@usesocietymortgage.com
+                  support@trypeachyinsurance.com
                 </a>
               </p>
               <p>
                 Phone:{" "}
-                <a href="tel:12162367266" className="text-[#8b1a2e] underline">
-                  +1 (216) 236-7266
+                <a href="tel:14046001660" className="text-[#8b1a2e] underline">
+                  (404) 600-1660
                 </a>
               </p>
             </div>
