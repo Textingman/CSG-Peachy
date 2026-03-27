@@ -198,7 +198,7 @@ export default function Home() {
             </label>
           </div>
 
-          {/* SMS Consent Checkbox */}
+          {/* SMS Consent Checkbox (Optional) */}
           <div className="flex items-start gap-3">
             <input
               type="checkbox"
@@ -212,6 +212,7 @@ export default function Home() {
               htmlFor="smsAgreed"
               className="text-sm text-gray-600 leading-relaxed cursor-pointer"
             >
+              <span className="text-gray-400 text-xs font-medium uppercase tracking-wide mr-1">(Optional)</span>{" "}
               By checking this box and submitting this form, you agree to
               receive customer care text messages from Peachy Insurance. I
               understand I may opt out of SMS communication by replying
